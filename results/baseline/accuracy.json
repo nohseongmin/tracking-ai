@@ -1,0 +1,19 @@
+{
+  "source": "Values read from the AWS evaluation log after test_accuracy.json was saved",
+  "test_samples": 6107209,
+  "successful_predictions": 4255399,
+  "failed_predictions": 1851810,
+  "accuracy_percent": 69.67829330877656,
+  "radius_units": 250.0,
+  "running_speed_units_per_second": 250.0,
+  "tolerance_seconds": 1.0,
+  "criterion": "Euclidean xyz distance <= 250; spherical success region",
+  "prediction_seconds_requested": 3.0,
+  "prediction_gap_seconds_min": 3.0,
+  "prediction_gap_seconds_max": 3.0236220472440944,
+  "best_epoch": 8,
+  "mean_distance_units": 200.26817589105949,
+  "evaluation_elapsed_seconds": 3.5436594279963174,
+  "test_scope": "Preprocessed held-out test windows; nearly stationary input windows were excluded",
+  "speed_source": "https://diglib.eg.org/server/api/core/bitstreams/9247c333-0a6d-4601-af58-73d9b1c665c7/content"
+}

@@ -1,0 +1,31 @@
+{
+  "source": "Read from AWS dataset_summary.json, test_metrics.json and training_history.json through the browser terminal on 2026-10-05",
+  "totals": {
+    "rounds": 41076,
+    "matches": 1558,
+    "stored_frames": 7708638,
+    "player_records": 77077619,
+    "alive_player_records": 58503985,
+    "candidate_windows": 53986310,
+    "rejected_stationary_input": 10802575,
+    "rejected_tick_gap": 2987542,
+    "train_samples": 27990778,
+    "validation_samples": 6098206,
+    "test_samples": 6107209
+  },
+  "elapsed_preprocess_seconds": 4239.020210027695,
+  "record_type": "Archival preprocessing summary; not a prepared-run manifest",
+  "dataset_source": "https://github.com/pnxenopoulos/esta",
+  "seed": 42,
+  "input_shape": [
+    6,
+    4
+  ],
+  "input_columns": [
+    "x",
+    "y",
+    "z",
+    "isWalking"
+  ],
+  "prediction_seconds_requested": 3.0
+}

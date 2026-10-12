@@ -1,0 +1,41 @@
+# Local environments and generated output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/
+data/
+Dataset/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.npz
+*.npy
+*.json.xz
+*.log
+*.tmp
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+*credentials*
+*.pem
+*.ppk
+*.key
+id_rsa*
+id_ed25519*
+
+# Personal presentation files and screenshots
+*.pptx
+*.ppt
+*.pdf
+desktop.ini
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

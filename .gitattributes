@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Preserve archived script/report bytes so the published provenance hashes remain valid.
+scripts/** -text whitespace=cr-at-eol
+configs/** -text whitespace=cr-at-eol
+results/** -text whitespace=cr-at-eol
+analysis/build_model_graphs.py -text whitespace=cr-at-eol
+analysis/export_ppt_graphs.py -text whitespace=cr-at-eol
+assets/** -text
+
+# This historical entry point has a trailing blank line; keep its archived bytes intact.
+scripts/train_three_second_gru.py whitespace=cr-at-eol,-blank-at-eof

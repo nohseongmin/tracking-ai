@@ -1,0 +1,4 @@
+# Publication-time CPU smoke-check environment, Python 3.12.
+# A CUDA-enabled PyTorch build is required for the historical training scripts.
+numpy==2.4.6
+torch==2.12.0

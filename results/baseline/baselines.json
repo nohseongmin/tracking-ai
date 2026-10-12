@@ -1,0 +1,45 @@
+{
+  "source": "Values read from the saved AWS baseline_accuracy.json and server result screen",
+  "test_samples": 6107209,
+  "radius_units": 250.0,
+  "criterion": "Euclidean xyz distance <= 250; spherical success region",
+  "prediction_seconds_requested": 3.0,
+  "prediction_gap_seconds_min": 3.0,
+  "prediction_gap_seconds_max": 3.0236220472440944,
+  "test_scope": "Preprocessed held-out test windows; nearly stationary input windows were excluded",
+  "kalman_model": "Constant-velocity Kalman filter using six past xyz positions; future horizon is six stored-frame steps",
+  "kalman_q": 1.0,
+  "kalman_r": 1.0,
+  "kalman_selection": "Best validation accuracy among nine Q/R combinations; mean distance breaks ties",
+  "noise_variances_tested": [
+    1.0,
+    100.0,
+    10000.0
+  ],
+  "validation_samples": 6098206,
+  "selected_kalman_validation_accuracy_percent": 49.435096157788045,
+  "metrics": {
+    "GRU": {
+      "samples": 6107209,
+      "hits": 4255399,
+      "failures": 1851810,
+      "accuracy_percent": 69.67829330877656,
+      "mean_distance_units": 200.26817589105949
+    },
+    "last_position": {
+      "samples": 6107209,
+      "hits": 3195473,
+      "failures": 2911736,
+      "accuracy_percent": 52.32296782376368,
+      "mean_distance_units": 271.09893678750956
+    },
+    "kalman": {
+      "samples": 6107209,
+      "hits": 3000252,
+      "failures": 3106957,
+      "accuracy_percent": 49.12640127429731,
+      "mean_distance_units": 295.7232747759519
+    }
+  },
+  "evaluation_elapsed_seconds": 53.61240275399905
+}

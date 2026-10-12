@@ -1,0 +1,1502 @@
+[
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_01",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_01",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_01",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_02",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_02",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_02",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_03",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_03",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_03",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_04",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_04",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_04",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_05",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_05",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_05",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_06",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_06",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_06",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_07",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_07",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_07",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_08",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_08",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_08",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_09",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_09",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_09",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_10",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_10",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_10",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_11",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_11",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_11",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_12",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_12",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_12",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_13",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_13",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_13",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-06,
+    "name": "gru_14",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-06,
+    "name": "lstm_14",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-06,
+    "name": "mlp_14",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-05,
+    "name": "gru_15",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-05,
+    "name": "lstm_15",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 1e-05,
+    "name": "mlp_15",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0001,
+    "name": "gru_16",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0001,
+    "name": "lstm_16",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0001,
+    "name": "mlp_16",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.001,
+    "name": "gru_17",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.001,
+    "name": "lstm_17",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 1,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.001,
+    "name": "mlp_17",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_18",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_18",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_18",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "gru_19",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "lstm_19",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "mlp_19",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_20",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_20",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_20",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "gru_21",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "lstm_21",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "mlp_21",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "gru_22",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "lstm_22",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.0,
+    "weight_decay": 0.0,
+    "name": "mlp_22",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "gru_23",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "lstm_23",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.1,
+    "weight_decay": 0.0,
+    "name": "mlp_23",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_24",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_24",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_24",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "gru_25",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "lstm_25",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.3,
+    "weight_decay": 0.0,
+    "name": "mlp_25",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_26",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_26",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_26",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_27",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_27",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_27",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_28",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_28",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_28",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_29",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_29",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_29",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_30",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_30",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_30",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_31",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_31",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_31",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_32",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_32",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_32",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_33",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_33",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_33",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_34",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_34",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_34",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_35",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_35",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.0005,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_35",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_36",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_36",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.002,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_36",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_37",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_37",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_37",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-06,
+    "name": "gru_38",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-06,
+    "name": "lstm_38",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-06,
+    "name": "mlp_38",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-05,
+    "name": "gru_39",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-05,
+    "name": "lstm_39",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 1e-05,
+    "name": "mlp_39",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "name": "gru_40",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "name": "lstm_40",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0001,
+    "name": "mlp_40",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.001,
+    "name": "gru_41",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.001,
+    "name": "lstm_41",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 2,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.001,
+    "name": "mlp_41",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_42",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_42",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 64,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_42",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_43",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_43",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 96,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_43",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_44",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_44",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 192,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_44",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_45",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_45",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 256,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_45",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_46",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_46",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 1024,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_46",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_47",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_47",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_47",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_48",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_48",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 8192,
+    "learning_rate": 0.001,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_48",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_49",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_49",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_49",
+    "architecture": "MLP"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "gru_50",
+    "architecture": "GRU"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "lstm_50",
+    "architecture": "LSTM"
+  },
+  {
+    "hidden_size": 128,
+    "layers": 3,
+    "batch_size": 4096,
+    "learning_rate": 0.003,
+    "dropout": 0.2,
+    "weight_decay": 0.0,
+    "name": "mlp_50",
+    "architecture": "MLP"
+  }
+]

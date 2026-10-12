@@ -1,0 +1,121 @@
+{
+  "publication_date": "2026-10-13",
+  "dataset_source": "https://github.com/pnxenopoulos/esta",
+  "dataset_license": "CC-BY-SA-4.0",
+  "results_source": "Completed AWS experiment reports exported through the terminal and checked locally",
+  "historical_environment_note": "Full package lock and exact dataset checkout revision were not archived; publication dependencies document the local CPU check environment.",
+  "raw_data_and_checkpoints_included": false,
+  "result_transformations": "AWS local output paths were removed from baseline and pilot metadata; aggregate measurements and the frozen sweep configuration are preserved.",
+  "original_scripts": [
+    {
+      "file": "scripts/train_three_second_gru.py",
+      "archive_relative_path": "docs/output/train_three_second_gru.py",
+      "sha256": "d438f7b653a39af2b31bc6106912562e3de67e9d7cb46907d1cde3a1a703a0e4",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/train_three_second_gru_progress.py",
+      "archive_relative_path": "docs/output/train_three_second_gru_progress.py",
+      "sha256": "4fe5dbfa7ce59dc857cea2583a0fe8755511060041723c005df2841822ad9d8c",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/run_sweep_150.py",
+      "archive_relative_path": "docs/output/run_sweep_150.py",
+      "sha256": "09d6495b8bdaefcf18e7ee85721d99bb7f3a6afcd82d0764a2578ff9dd45a6a8",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/evaluate_accuracy.py",
+      "archive_relative_path": "docs/.week4-build/evaluate_accuracy.py",
+      "sha256": "0afa791a9ee7cdb8c15cb3a23061aeb46aa5cf4320835495366e6ca0e79c976b",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/evaluate_baselines.py",
+      "archive_relative_path": "docs/.week4-build/evaluate_baselines.py",
+      "sha256": "13f81129097f0c4ce6993d15d6a2ea4bcbae892e083c40f7a906ddd417225e38",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/prepare_attributes.py",
+      "archive_relative_path": "docs/.week5-build/prepare_attributes.py",
+      "sha256": "a53160b13392d61335eac973a4a351d931a7353355c601a6f5ba14a295b74539",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/run_experiments.py",
+      "archive_relative_path": "docs/.week5-build/run_experiments.py",
+      "sha256": "f7905d79d7c66160477c373ad8dcc6ab6f95b6e82d48814d97a2b99c1fb501bc",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/run_five_models.py",
+      "archive_relative_path": "docs/.week5-build/run_five_models.py",
+      "sha256": "4cedf7c873454cb3fa023262c2b13e36e821f8b8edb5a1a7714fef525e0bb01e",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/extract_raw.py",
+      "archive_relative_path": "docs/.rawsheet-build/extract_raw.py",
+      "sha256": "240cd10c2e21582e364f750e96ded20e0549c7c6301d92b9668415e518b11764",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "scripts/audit_dataset.py",
+      "archive_relative_path": "src/audit_dataset.py",
+      "sha256": "2cd6e107721ec75286e95d0d1b7266160fb534071e65aeb8c223743f053323ae",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "analysis/build_model_graphs.py",
+      "archive_relative_path": "docs/.week5-build/build_model_graphs.py",
+      "sha256": "20e5e310ed41ba83ecaab825b753cafc4e4a54d5f6ddb88caa2719cde43e238f",
+      "copy_status": "Byte-identical to the archived script"
+    },
+    {
+      "file": "analysis/export_ppt_graphs.py",
+      "archive_relative_path": "docs/.week5-build/export_ppt_graphs.py",
+      "sha256": "846b5c9010cdeb1ae8b549ccf6080a47e27f5d8a8b21e4702c8c1a7f578c7331",
+      "copy_status": "Byte-identical to the archived script"
+    }
+  ],
+  "published_reports": [
+    {
+      "file": "configs/sweep_150.json",
+      "sha256": "0e6e45c2d3adc62a648d42297cc50b180552eb3ac9e43a123d123e9d6b428d16"
+    },
+    {
+      "file": "results/sweep_150/comparison.csv",
+      "sha256": "4ef53d7923de43be0e7c209d8cf2fa86dd45c93f4a30f6c6c192d4afd2902e23"
+    },
+    {
+      "file": "results/sweep_150/export.json",
+      "sha256": "0d38ab08071dfd5b4f7000f7e989aee089ab28671ab75ae8d3a4e00285180f74"
+    },
+    {
+      "file": "results/sweep_150/validation_summary.json",
+      "sha256": "3c06f36337f5373794e60d5eaf7d46e41f8ea228eb6540514ba83ef8b600eb3d"
+    },
+    {
+      "file": "results/baseline/dataset_summary.json",
+      "sha256": "7ed1869fed37fa0c03ffd8a3d62c52bb6f048f761161959ed62b9292312fc546"
+    },
+    {
+      "file": "results/baseline/accuracy.json",
+      "sha256": "a3440d87614fd0e2b65f8f8ae668b5221eafdb4e00df3f2732351eaecad434e6"
+    },
+    {
+      "file": "results/baseline/baselines.json",
+      "sha256": "21ff95fab65471eb362adff7a2f26da14169ec14f250b9c2bbe4419f72450471"
+    },
+    {
+      "file": "results/pilot/results.json",
+      "sha256": "6e36322e82a8219ac97806c42febfe3b93cbc2bd46bce05ef9fe1865984c10b3"
+    },
+    {
+      "file": "results/pilot/player_columns.json",
+      "sha256": "f1e6105e4d5ed1ed79a4ca0f6908a4735d71022a7496e198c65da7cb088fbd39"
+    }
+  ]
+}
