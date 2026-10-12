@@ -1,4 +1,4 @@
-# Creature Tracking AI
+# Tracking AI
 
 **Three-second player position forecasting from short movement histories.**
 
@@ -73,8 +73,8 @@ Historical coordinates currently act as **simulated localized footstep observati
 The original training entry points require a CUDA-capable GPU. The sweep caches prepared arrays in GPU memory; the recorded full run used an A10G with 24 GB VRAM. A small CPU check is available without downloading ESTA.
 
 ```bash
-git clone https://github.com/nohseongmin/creature-tracking-ai.git
-cd creature-tracking-ai
+git clone https://github.com/nohseongmin/tracking-ai.git
+cd tracking-ai
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
